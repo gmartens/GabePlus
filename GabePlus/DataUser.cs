@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 
 
-namespace UpvoteBot
+namespace GabePlus
 {
     class DataUser
     {

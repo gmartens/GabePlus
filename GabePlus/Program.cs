@@ -6,11 +6,9 @@ using System.Linq;
 
 using Discord;
 using Discord.WebSocket;
-using Discord.Net;
 using System.Collections.Immutable;
-using System.Diagnostics;
 
-namespace UpvoteBot
+namespace GabePlus
 {
     class Program
     {
