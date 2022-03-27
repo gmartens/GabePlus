@@ -8,6 +8,8 @@ obj/
 /node_modules
 /wwwroot/node_modules
 
+/.idea/.idea.UpvoteBot/.idea
+
 .dtbcache.v2
 *.pubxml
 
