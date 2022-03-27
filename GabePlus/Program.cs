@@ -101,6 +101,7 @@ namespace GabePlus
             }
             
             Users[message.Author.Id].addEmote(reactionChanged.Emote.ToString());
+            Users[message.Author.Id].UserName = message.Author.Username;
             Users[message.Author.Id].save();
             saveUsers(UsersFile, Users);
         }
@@ -117,6 +118,7 @@ namespace GabePlus
             }
 
             Users[message.Author.Id].subtractEmote(reactionChanged.Emote.ToString());
+            Users[message.Author.Id].UserName = message.Author.Username;
             Users[message.Author.Id].save();
             saveUsers(UsersFile, Users);
         }
